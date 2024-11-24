@@ -17,3 +17,36 @@ if (idade < 18 || carta === 'não') {
 } else {
     alert('Você inseriu um valor inválido');
 }
+
+/*
+Criando variáveis para armazenar as informações do usuário:
+
+let nome
+let idade
+let temCarta = false
+let temCarro = false
+
+Pedindo as informações ao usuário:
+
+nome = prompt('Digite seu nome:')
+idade = Number(prompt('Digite sua idade:'))
+let opcaoCarta = prompt('Você possui carta de motorista? (sim ou não)')
+if (opcaoCarta === 'sim') {
+    temCarta = true
+}
+
+let opcaoCarro = prompt('Você possui carro? (sim ou não)')
+if (opcaoCarro === 'sim') {
+    temCarro = true
+}
+
+Exibindo as mensagens de acordo com as informações inseridas:
+
+if (idade < 18 || !temCarta) { // !temCarta é a mesma coisa que temCarta === false
+    console.log(`${nome}, você não pode dirigir`)
+} else if (idade >= 18 && temCarta && !temCarro) {
+    console.log(`${nome}, você pode dirigir mas não tem um carro`)
+} else { 
+    console.log(`${nome}, você será o motorista!`)
+} 
+    */
